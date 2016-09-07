@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: yellow;
+  background-color: #333333;
   color: #fff;
 }
 .tupian{
@@ -21,6 +21,17 @@ img{
     margin: 5px auto;
 
     color: #333333;
+}
+.content p{
+
+  display: inline-block;
+  
+  text-indent: 2em;
+  padding: 15px 5px;
+}
+.skills{
+  font-size: 30px;
+
 }
 nav a {
     display: inline-block;
