@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  background-color: yellow;
+  color: #fff;
+}
+.tupian{
+  margin-top: 10px;
+  text-align: center;
+}
+img{
+
+}
+.touxiang{
+  border-radius: 50%;
+}
+.content {
+    background-color: red;
+    width: 90%;
+    height: 300px;
+
+    margin: 5px auto;
+
+    color: #333333;
+}
+nav a {
+    display: inline-block;
+    background-color: #ce5d1b;
+    height: 30px;
+    line-height: 30px;
+    width: 30%;
+    font-size: 14px;
+}
