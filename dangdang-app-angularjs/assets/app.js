@@ -17,7 +17,7 @@ app.config(['$routeProvider',function($routeProvider){
      templateUrl:'./assets/tpl/linkme.html',
      controller:''
    })
-   .when('/book_list',{
+   .when('/book_list/:id',{
      templateUrl:'./assets/tpl/book_list.html',
      controller:'bookListController'
    })
