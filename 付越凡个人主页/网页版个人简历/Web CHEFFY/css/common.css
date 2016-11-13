@@ -1,0 +1,185 @@
+@charset "utf-8"; /* CSS Document */
+/*公共样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+.container{ }
+ol, li {
+	list-style: none;
+}
+li {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+body {
+	background: #7ACCC6;
+	font-size: 12px;
+	color: #FFF;
+	font-weight: lighter;
+	font-family:"微软雅黑";
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+.content {
+	/*position: relative;*/
+	margin: 2em 0;
+	padding: 24px 0;
+	width: 100%;
+	height: auto; overflow:hidden;
+	background: #FFF;
+	border-radius: 15px 0 15px 15px;
+}
+.content h2 {
+	color: #7f657c;
+	width: 90%;
+	margin: 0 auto;
+	height: 22px;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.content p {
+	width: 90%;
+	margin: 12px auto;
+	color: #656565;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	letter-spacing: normal;
+}
+/*头部*/
+
+.top {
+	width: 100%;
+	text-align: center;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+ h1 {
+	font-size: 30px;
+}
+.top h2{ vertical-align:text-bottom; }
+.top h2 li:last-child {
+	float: right;
+}
+.nav {
+	width: 100%;
+	border: 1px solid #C7F5F8;
+	height: 35px;
+	background: #B7E5E2;
+}
+.nav ul {
+	margin-top: 10px;
+}
+.nav ul li {
+	text-align: center;
+	list-style-type: none;
+	font-size: 15px;
+	float: left;
+	width: 25%;
+	color: #929B8D;
+	height: 100%;
+}
+.nav ul li a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 17px;
+	font-family: dotum, helvetica, sans-serif;
+}
+.nav li:hover {
+	background-color: #7ACCC6;
+	width: 25%;
+}
+.nav ul li img {
+	width: 15px;
+	height: 15px;
+}
+/*底部*/
+
+.footer {
+	width: 100%;
+	margin: 3em 0;
+
+}
+.footer h2 {
+	letter-spacing: 0.01em;
+	font-size: 14px;
+	color: #656565;
+	font-family: dotum, helvetica, sans-serif;
+	font-weight: lighter;
+}
+.footer h2 a {
+	color: #676576;
+}
+.logo {
+	float: right;/*position:absolute; right:225px; top:880px; */
+}
+
+/*头&底部公共响应式*/
+@media screen and (max-width:780px) {
+body {
+	min-width: 480px;
+	margin: 0 auto;
+}
+.top, .nav {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.right {
+	float: none;
+	margin: 10px 50px 0 0;
+}
+.nav ul li a span {
+	display: none;
+}
+.content {
+	width: 90%;
+	margin: 30px auto;
+}
+.footer {
+	text-align: center;
+	width: 90%;
+}
+.logo {
+	display: none;
+}
+}
+@media screen and (max-width:480px) {
+body {
+	max-width: 480px;
+	min-width: 320px;
+}
+.c, .nav ul li img {
+	display: none;
+}
+.nav ul li a span {
+	display: block;
+}
+.nav ul {
+	width: 100%;
+	margin-left: 0;
+	padding: 0;
+}
+.nav ul li {
+	width: auto;
+	text-align: center;
+	float: none;
+	margin: 10px auto;
+}
+.nav {
+	border-left: 0;
+	border-right: 0;
+	height: auto;
+	background: none;
+}
+}

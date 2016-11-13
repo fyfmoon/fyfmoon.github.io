@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content h2 {
+	margin-left: 30px;
+}
+.content p {
+	margin-left: 30px;
+}
+.article {
+	padding-top: 2em;
+	width: 30%;
+	height: auto;
+	float: left;
+}
+.content {
+	height: 100%;
+}
+.gallery {
+	width: 65%;
+	height: 100%;
+	float: right;
+	display: block;
+	padding-top: 2em;
+}
+.content ul li {
+	float: left;
+	width: 33.333%;
+	text-align: center;
+}
+.content ul li .wrap {
+	width: 65%;
+	margin: 0 auto;
+	border: 1px solid #C7F5F8;
+	background: #eae8e8;
+	margin-bottom: 12px;
+	padding: 30% 0;
+}
+.content ul li img {
+	width: 100%;
+	height: auto;
+}
+ @media screen and (max-width:780px) {
+.content p {
+	width: 70%;
+	text-align: start;
+}
+.article {
+	width: 50%;
+}
+.gallery {
+	width: 50%;
+}
+.content ul li {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.content ul li .wrap {
+	width: 90%;
+	padding: 40% 0;
+}
+}
+ @media screen and (max-width:480px) {
+.article {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+.content p {
+	width: 80%;
+	margin-left: 0;
+	margin: 12px auto;
+}
+.content h2 {
+	text-align: center;
+	margin-left: 0;
+}
+.gallery {
+	padding-top: 1em;
+	width: 100%;
+	float: none;
+}
+.content ul li {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.content ul li .wrap {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	padding: 30% 0;
+}
+.content ul li img {
+	width: 100%;
+	height: auto;
+}
+}

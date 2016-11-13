@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+.article h1 {
+	font-family:font-family:"微软雅黑";
+	color: #333;
+	font-size: 20px;
+	font-weight:normal;
+	line-height: 28px;
+}
+.article h2 {
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	height: auto;
+	font-weight:bolder;
+	line-height: 24px;
+	margin: 0;
+}
+.article article {
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 10%;
+}
+.pic {
+	width: 100%;
+}
+.article {
+	position: relative;
+	margin-top: 5%;
+	width: 50%;
+	float: left;
+}
+.article img {
+	display: block;
+	width:110%;
+	margin-right: 5%;
+}
+.form {
+	width: 50%;
+	float: right;
+	margin-top: 20%;
+}
+#form ul {
+	width: 90%;
+	margin-left: 5%;
+	font-family: dotum, helvetica, sans-serif;
+	font-size: 16px;
+}
+#form ul li {
+	width: 100%;
+}
+#form label {
+	width: 25%;
+	display: inline-block;
+	text-align: right;
+	color: #656565;
+	vertical-align: top;
+	font-size: 16px;
+}
+#form input {
+	border: 1px solid rgba(122, 204, 198, 1);
+	width: 70%;
+	height: 32px;
+	margin: 2px 0 7px 0;
+}
+#form ul li {
+	list-style-type: none;
+}
+#form ul li a {
+	text-decoration: none;
+	float: right;
+	margin-right:16px;
+	color: rgba(122, 204, 198, 1);
+}
+@media screen and (max-width:780px) {
+.article article {
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 10%;
+}
+.pic {
+	width: 100%;
+}
+.article {
+	position: relative;
+	margin-top: 5%;
+	width: 100%;
+	float: none;
+}
+.article img {
+	width: 100%;
+	margin-right: 0;
+}
+.form {
+	width: 100%;
+	float: one;
+	margin-top: 24px;
+}
+#form ul {
+	width: 90%;
+	margin: 0 auto;
+}
+#form ul li {
+	width: 100%;
+}
+#form label {
+	width: 20%;
+	font-size: 14px;
+}
+#form ul li a {
+	text-decoration: none;
+	float: right;
+	margin-right:35px;
+	color: rgba(122, 204, 198, 1);
+}
+}
+@media screen and ( max-width:480px) {
+.article {
+	margin: 0;
+}
+.article img {
+	display: none;
+}
+.article article {
+	position: relative;
+	width: 100%;
+}
+#form ul {
+	width: 100%;
+}
+#form label {
+	font-size: 14px;
+}
+#form ul li a {
+	text-decoration: none;
+	float: right;
+	margin-right:24px;
+	color: rgba(122, 204, 198, 1);
+}
+}
